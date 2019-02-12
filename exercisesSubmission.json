@@ -1,0 +1,67 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "bind": {
+      "completed": false,
+      "rating": null
+    },
+    "block-scoping": {
+      "completed": false,
+      "rating": null
+    },
+    "const-immutable": {
+      "completed": false,
+      "rating": null
+    },
+    "create-student": {
+      "completed": false,
+      "rating": null
+    },
+    "double-odd-numbers": {
+      "completed": false,
+      "rating": null
+    },
+    "instructor": {
+      "completed": false,
+      "rating": null
+    },
+    "join-arrays": {
+      "completed": false,
+      "rating": null
+    },
+    "map-filter-and-reduce": {
+      "completed": false,
+      "rating": null
+    },
+    "place-in-middle": {
+      "completed": false,
+      "rating": null
+    },
+    "print-full-name": {
+      "completed": false,
+      "rating": null
+    },
+    "sum-even-args": {
+      "completed": false,
+      "rating": null
+    },
+    "template-literals": {
+      "completed": false,
+      "rating": null
+    },
+    "template-tag-function": {
+      "completed": false,
+      "rating": null
+    },
+    "triple-and-filter": {
+      "completed": false,
+      "rating": null
+    },
+    "all-of-conditions": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
