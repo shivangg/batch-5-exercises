@@ -40,7 +40,7 @@
       "rating": null
     },
     "return-true-test": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "stack-test": {
