@@ -1,0 +1,11 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "advance-exercises": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
