@@ -1,0 +1,63 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "search-sorted-matrix": {
+      "completed": false,
+      "rating": null
+    },
+    "unnest": {
+      "completed": false,
+      "rating": null
+    },
+    "uniq": {
+      "completed": false,
+      "rating": null
+    },
+    "uncurry-n": {
+      "completed": false,
+      "rating": null
+    },
+    "union": {
+      "completed": false,
+      "rating": null
+    },
+    "slice": {
+      "completed": false,
+      "rating": null
+    },
+    "split-every": {
+      "completed": false,
+      "rating": null
+    },
+    "substitution-cipher": {
+      "completed": false,
+      "rating": null
+    },
+    "sudan-fn": {
+      "completed": false,
+      "rating": null
+    },
+    "summable": {
+      "completed": false,
+      "rating": null
+    },
+    "theatre": {
+      "completed": false,
+      "rating": null
+    },
+    "tiles": {
+      "completed": false,
+      "rating": null
+    },
+    "to-pairs": {
+      "completed": false,
+      "rating": null
+    },
+    "type-js": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
