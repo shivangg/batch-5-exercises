@@ -1,0 +1,59 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "filtered-names": {
+      "completed": false,
+      "rating": null
+    },
+    "filtered-names-recursive": {
+      "completed": false,
+      "rating": null
+    },
+    "http-server": {
+      "completed": false,
+      "rating": null
+    },
+    "is-stream": {
+      "completed": false,
+      "rating": null
+    },
+    "json-response-server": {
+      "completed": false,
+      "rating": null
+    },
+    "lines-in-file": {
+      "completed": false,
+      "rating": null
+    },
+    "lines-in-file-async": {
+      "completed": false,
+      "rating": null
+    },
+    "node-event": {
+      "completed": false,
+      "rating": null
+    },
+    "slug-url": {
+      "completed": false,
+      "rating": null
+    },
+    "strip-eof": {
+      "completed": false,
+      "rating": null
+    },
+    "to-readable-stream": {
+      "completed": false,
+      "rating": null
+    },
+    "unused-filename": {
+      "completed": false,
+      "rating": null
+    },
+    "valid-filename": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
