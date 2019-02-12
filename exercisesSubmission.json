@@ -1,0 +1,23 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "express-101": {
+      "completed": false,
+      "rating": null
+    },
+    "templating-engine": {
+      "completed": false,
+      "rating": null
+    },
+    "express-forms": {
+      "completed": false,
+      "rating": null
+    },
+    "express-router": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
