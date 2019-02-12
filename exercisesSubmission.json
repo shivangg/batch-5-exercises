@@ -1,0 +1,11 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "pokemon-testing": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
