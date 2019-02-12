@@ -1,0 +1,55 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "least-common-multiple": {
+      "completed": false,
+      "rating": null
+    },
+    "integer-partition": {
+      "completed": false,
+      "rating": null
+    },
+    "linked-list": {
+      "completed": false,
+      "rating": null
+    },
+    "bizarre-string-incrementer": {
+      "completed": false,
+      "rating": null
+    },
+    "adding-vector-graphics-to-web": {
+      "completed": false,
+      "rating": null
+    },
+    "canvas": {
+      "completed": false,
+      "rating": null
+    },
+    "form-validation": {
+      "completed": false,
+      "rating": null
+    },
+    "map": {
+      "completed": false,
+      "rating": null
+    },
+    "svg": {
+      "completed": false,
+      "rating": null
+    },
+    "table": {
+      "completed": false,
+      "rating": null
+    },
+    "html-video": {
+      "completed": false,
+      "rating": null
+    },
+    "whatsapp": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
