@@ -1,0 +1,31 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "path-satisfies": {
+      "completed": false,
+      "rating": null
+    },
+    "reject": {
+      "completed": false,
+      "rating": null
+    },
+    "test-basics": {
+      "completed": false,
+      "rating": null
+    },
+    "test-forms": {
+      "completed": false,
+      "rating": null
+    },
+    "test-lifecycle": {
+      "completed": false,
+      "rating": null
+    },
+    "test-redux": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
