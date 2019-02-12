@@ -1,0 +1,11 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "modify-object-keys": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
