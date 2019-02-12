@@ -1,0 +1,43 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "consumable-users": {
+      "completed": false,
+      "rating": null
+    },
+    "cycled": {
+      "completed": false,
+      "rating": null
+    },
+    "fibonacci-iter": {
+      "completed": false,
+      "rating": null
+    },
+    "generator-iterable": {
+      "completed": false,
+      "rating": null
+    },
+    "iterable-protocol": {
+      "completed": false,
+      "rating": null
+    },
+    "is-iterable": {
+      "completed": false,
+      "rating": null
+    },
+    "is-iterable-empty": {
+      "completed": false,
+      "rating": null
+    },
+    "range-iter": {
+      "completed": false,
+      "rating": null
+    },
+    "simple-iterable": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
