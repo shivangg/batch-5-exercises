@@ -1,0 +1,15 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "basic-mongo-two": {
+      "completed": false,
+      "rating": null
+    },
+    "basic-mongo-three": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
