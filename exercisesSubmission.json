@@ -1,0 +1,67 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "slasher": {
+      "completed": false,
+      "rating": null
+    },
+    "chunk-array-in-groups": {
+      "completed": false,
+      "rating": null
+    },
+    "find-element": {
+      "completed": false,
+      "rating": null
+    },
+    "drop-elements": {
+      "completed": false,
+      "rating": null
+    },
+    "update-inventory": {
+      "completed": false,
+      "rating": null
+    },
+    "smallest-commons": {
+      "completed": false,
+      "rating": null
+    },
+    "truth-check": {
+      "completed": false,
+      "rating": null
+    },
+    "orbital-period": {
+      "completed": false,
+      "rating": null
+    },
+    "object-keys": {
+      "completed": false,
+      "rating": null
+    },
+    "object-values": {
+      "completed": false,
+      "rating": null
+    },
+    "map-object": {
+      "completed": false,
+      "rating": null
+    },
+    "object-pairs": {
+      "completed": false,
+      "rating": null
+    },
+    "object-invert": {
+      "completed": false,
+      "rating": null
+    },
+    "object-defaults": {
+      "completed": false,
+      "rating": null
+    },
+    "user-check-password": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
