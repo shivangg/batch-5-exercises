@@ -1,0 +1,39 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "question-1": {
+      "completed": false,
+      "rating": null
+    },
+    "question-2": {
+      "completed": false,
+      "rating": null
+    },
+    "question-3": {
+      "completed": false,
+      "rating": null
+    },
+    "question-4": {
+      "completed": false,
+      "rating": null
+    },
+    "question-5": {
+      "completed": false,
+      "rating": null
+    },
+    "question-6": {
+      "completed": false,
+      "rating": null
+    },
+    "question-7": {
+      "completed": false,
+      "rating": null
+    },
+    "question-8": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
