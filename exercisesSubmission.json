@@ -1,0 +1,55 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "array-sum-test": {
+      "completed": false,
+      "rating": null
+    },
+    "create-object-test": {
+      "completed": false,
+      "rating": null
+    },
+    "every-nth-test": {
+      "completed": false,
+      "rating": null
+    },
+    "factorial-test": {
+      "completed": false,
+      "rating": null
+    },
+    "get-name-test": {
+      "completed": false,
+      "rating": null
+    },
+    "logical-operators": {
+      "completed": false,
+      "rating": null
+    },
+    "number-sum-test": {
+      "completed": false,
+      "rating": null
+    },
+    "return-a-function-test": {
+      "completed": false,
+      "rating": null
+    },
+    "return-a-string-test": {
+      "completed": false,
+      "rating": null
+    },
+    "return-true-test": {
+      "completed": false,
+      "rating": null
+    },
+    "stack-test": {
+      "completed": false,
+      "rating": null
+    },
+    "sum-test": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
