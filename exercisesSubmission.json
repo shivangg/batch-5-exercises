@@ -1,0 +1,27 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "merge-all": {
+      "completed": false,
+      "rating": null
+    },
+    "nth-arg": {
+      "completed": false,
+      "rating": null
+    },
+    "one-through-six": {
+      "completed": false,
+      "rating": null
+    },
+    "omit": {
+      "completed": false,
+      "rating": null
+    },
+    "setup-router": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
