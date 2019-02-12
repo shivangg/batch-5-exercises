@@ -1,0 +1,39 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "bitcoin-ticker": {
+      "completed": false,
+      "rating": null
+    },
+    "convert-to-file-url": {
+      "completed": false,
+      "rating": null
+    },
+    "create-app-script": {
+      "completed": false,
+      "rating": null
+    },
+    "csv-to-json": {
+      "completed": false,
+      "rating": null
+    },
+    "date-format-tz": {
+      "completed": false,
+      "rating": null
+    },
+    "home-dir": {
+      "completed": false,
+      "rating": null
+    },
+    "parse-json": {
+      "completed": false,
+      "rating": null
+    },
+    "strip-path": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
