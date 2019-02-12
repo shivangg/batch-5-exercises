@@ -4,7 +4,7 @@
   "batch": "Batch Number",
   "exercises": {
     "array-sum-test": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "create-object-test": {
