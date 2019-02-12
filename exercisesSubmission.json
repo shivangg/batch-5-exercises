@@ -1,0 +1,59 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "levenshtein-distance": {
+      "completed": false,
+      "rating": null
+    },
+    "cartesian-product": {
+      "completed": false,
+      "rating": null
+    },
+    "center-text": {
+      "completed": false,
+      "rating": null
+    },
+    "cornered-string": {
+      "completed": false,
+      "rating": null
+    },
+    "counting-anagrams": {
+      "completed": false,
+      "rating": null
+    },
+    "cool-information-box-start": {
+      "completed": false,
+      "rating": null
+    },
+    "debugging-css": {
+      "completed": false,
+      "rating": null
+    },
+    "fundamental-css-comprehension": {
+      "completed": false,
+      "rating": null
+    },
+    "letterheaded-paper-start": {
+      "completed": false,
+      "rating": null
+    },
+    "positioning-(information-only)": {
+      "completed": false,
+      "rating": null
+    },
+    "positioning-(tutorial)": {
+      "completed": false,
+      "rating": null
+    },
+    "positioning-practical": {
+      "completed": false,
+      "rating": null
+    },
+    "styling-tables": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
