@@ -1,0 +1,15 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "intermediate-exercises": {
+      "completed": false,
+      "rating": null
+    },
+    "priority-queue": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
