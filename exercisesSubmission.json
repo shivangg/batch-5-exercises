@@ -1,0 +1,31 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "balanced-braces": {
+      "completed": false,
+      "rating": null
+    },
+    "duplicate-letters": {
+      "completed": false,
+      "rating": null
+    },
+    "does-end-with": {
+      "completed": false,
+      "rating": null
+    },
+    "isomorphic": {
+      "completed": false,
+      "rating": null
+    },
+    "is-empty": {
+      "completed": false,
+      "rating": null
+    },
+    "beginner-exercises": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
