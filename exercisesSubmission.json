@@ -1,0 +1,15 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "permutate-without-repetitions": {
+      "completed": false,
+      "rating": null
+    },
+    "fix-eslint-errors": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
