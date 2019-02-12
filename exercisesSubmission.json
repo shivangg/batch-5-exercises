@@ -1,0 +1,23 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "cookies": {
+      "completed": false,
+      "rating": null
+    },
+    "index-db": {
+      "completed": false,
+      "rating": null
+    },
+    "local-storage": {
+      "completed": false,
+      "rating": null
+    },
+    "session-storage": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
