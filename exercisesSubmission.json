@@ -1,0 +1,23 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "simple-post": {
+      "completed": false,
+      "rating": null
+    },
+    "shortest-common-supersequence": {
+      "completed": false,
+      "rating": null
+    },
+    "last-index-of": {
+      "completed": false,
+      "rating": null
+    },
+    "update-object": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
