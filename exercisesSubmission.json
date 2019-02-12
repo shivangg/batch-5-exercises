@@ -1,0 +1,71 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "reverse-string": {
+      "completed": false,
+      "rating": null
+    },
+    "is-palindrome": {
+      "completed": false,
+      "rating": null
+    },
+    "diff-array": {
+      "completed": false,
+      "rating": null
+    },
+    "longest-word-in-string": {
+      "completed": false,
+      "rating": null
+    },
+    "telephone-check": {
+      "completed": false,
+      "rating": null
+    },
+    "rot13": {
+      "completed": false,
+      "rating": null
+    },
+    "get-index-to-ins": {
+      "completed": false,
+      "rating": null
+    },
+    "repeat-string-num-times": {
+      "completed": false,
+      "rating": null
+    },
+    "binary-agent": {
+      "completed": false,
+      "rating": null
+    },
+    "bouncer": {
+      "completed": false,
+      "rating": null
+    },
+    "sum-all": {
+      "completed": false,
+      "rating": null
+    },
+    "pairwise": {
+      "completed": false,
+      "rating": null
+    },
+    "convert-to-roman": {
+      "completed": false,
+      "rating": null
+    },
+    "large-of-four": {
+      "completed": false,
+      "rating": null
+    },
+    "steamroll-array": {
+      "completed": false,
+      "rating": null
+    },
+    "rotated-string": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
