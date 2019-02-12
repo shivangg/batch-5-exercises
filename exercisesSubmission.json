@@ -1,0 +1,59 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "boolean": {
+      "completed": false,
+      "rating": null
+    },
+    "days-in-month": {
+      "completed": false,
+      "rating": null
+    },
+    "json-parse": {
+      "completed": false,
+      "rating": null
+    },
+    "lowercase-keys": {
+      "completed": false,
+      "rating": null
+    },
+    "math-fns": {
+      "completed": false,
+      "rating": null
+    },
+    "parse-ms": {
+      "completed": false,
+      "rating": null
+    },
+    "round-to": {
+      "completed": false,
+      "rating": null
+    },
+    "time-was": {
+      "completed": false,
+      "rating": null
+    },
+    "abbreviate-string": {
+      "completed": false,
+      "rating": null
+    },
+    "add-big-integers": {
+      "completed": false,
+      "rating": null
+    },
+    "alien-alphabet": {
+      "completed": false,
+      "rating": null
+    },
+    "permutate-with-repetitions": {
+      "completed": false,
+      "rating": null
+    },
+    "throw-errors": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
