@@ -1,0 +1,15 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "express-middlewares": {
+      "completed": false,
+      "rating": null
+    },
+    "auth-token-dummy": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
