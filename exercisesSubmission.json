@@ -1,0 +1,19 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "titleize": {
+      "completed": false,
+      "rating": null
+    },
+    "unique-random": {
+      "completed": false,
+      "rating": null
+    },
+    "simple-todo-tdd": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
