@@ -1,0 +1,67 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "factorial": {
+      "completed": false,
+      "rating": null
+    },
+    "is-odd": {
+      "completed": false,
+      "rating": null
+    },
+    "is-even": {
+      "completed": false,
+      "rating": null
+    },
+    "is-triangle": {
+      "completed": false,
+      "rating": null
+    },
+    "counter": {
+      "completed": false,
+      "rating": null
+    },
+    "counter-factory": {
+      "completed": false,
+      "rating": null
+    },
+    "limit-function-call-count": {
+      "completed": false,
+      "rating": null
+    },
+    "cache-function": {
+      "completed": false,
+      "rating": null
+    },
+    "apply-operator": {
+      "completed": false,
+      "rating": null
+    },
+    "boo-who": {
+      "completed": false,
+      "rating": null
+    },
+    "sum-fibs": {
+      "completed": false,
+      "rating": null
+    },
+    "sum-primes": {
+      "completed": false,
+      "rating": null
+    },
+    "rectangle-diagonal": {
+      "completed": false,
+      "rating": null
+    },
+    "three-sum": {
+      "completed": false,
+      "rating": null
+    },
+    "sum-of-perfect-squares": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
