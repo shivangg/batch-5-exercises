@@ -1,0 +1,51 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "alphabetic-shift": {
+      "completed": false,
+      "rating": null
+    },
+    "all-promises": {
+      "completed": false,
+      "rating": null
+    },
+    "greet": {
+      "completed": false,
+      "rating": null
+    },
+    "reject-promise": {
+      "completed": false,
+      "rating": null
+    },
+    "queue": {
+      "completed": false,
+      "rating": null
+    },
+    "person": {
+      "completed": false,
+      "rating": null
+    },
+    "sequential-promise": {
+      "completed": false,
+      "rating": null
+    },
+    "timeout": {
+      "completed": false,
+      "rating": null
+    },
+    "is-promise": {
+      "completed": false,
+      "rating": null
+    },
+    "promise-all-props": {
+      "completed": false,
+      "rating": null
+    },
+    "sleep-promise": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
