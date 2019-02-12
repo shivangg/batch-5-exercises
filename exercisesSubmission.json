@@ -1,0 +1,43 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "built-in-iterables": {
+      "completed": false,
+      "rating": null
+    },
+    "ackermann": {
+      "completed": false,
+      "rating": null
+    },
+    "aperture": {
+      "completed": false,
+      "rating": null
+    },
+    "animal-sort": {
+      "completed": false,
+      "rating": null
+    },
+    "args-string": {
+      "completed": false,
+      "rating": null
+    },
+    "arithmetic-expression-evaluator": {
+      "completed": false,
+      "rating": null
+    },
+    "array-addition": {
+      "completed": false,
+      "rating": null
+    },
+    "array-cube-root-to-json": {
+      "completed": false,
+      "rating": null
+    },
+    "object-assign": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
