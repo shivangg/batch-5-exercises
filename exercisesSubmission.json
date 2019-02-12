@@ -1,0 +1,43 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "power-set": {
+      "completed": false,
+      "rating": null
+    },
+    "longest-common-subsequnce": {
+      "completed": false,
+      "rating": null
+    },
+    "eval-reverse-polish-notation": {
+      "completed": false,
+      "rating": null
+    },
+    "deep-copy-object": {
+      "completed": false,
+      "rating": null
+    },
+    "advanced-box-effects": {
+      "completed": false,
+      "rating": null
+    },
+    "animation": {
+      "completed": false,
+      "rating": null
+    },
+    "flexbox": {
+      "completed": false,
+      "rating": null
+    },
+    "floats": {
+      "completed": false,
+      "rating": null
+    },
+    "grids": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
