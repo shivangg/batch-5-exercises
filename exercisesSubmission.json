@@ -1,0 +1,67 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "hamming-distance": {
+      "completed": false,
+      "rating": null
+    },
+    "knuth-morris-pratt": {
+      "completed": false,
+      "rating": null
+    },
+    "longest-common-substring": {
+      "completed": false,
+      "rating": null
+    },
+    "binary-search": {
+      "completed": false,
+      "rating": null
+    },
+    "primality-test": {
+      "completed": false,
+      "rating": null
+    },
+    "boolean-expression-evaluator": {
+      "completed": false,
+      "rating": null
+    },
+    "debugging-html": {
+      "completed": false,
+      "rating": null
+    },
+    "form-attributes": {
+      "completed": false,
+      "rating": null
+    },
+    "form": {
+      "completed": false,
+      "rating": null
+    },
+    "html-classes": {
+      "completed": false,
+      "rating": null
+    },
+    "html-text-formatting": {
+      "completed": false,
+      "rating": null
+    },
+    "iframe": {
+      "completed": false,
+      "rating": null
+    },
+    "navigation-menu-start": {
+      "completed": false,
+      "rating": null
+    },
+    "strikeout": {
+      "completed": false,
+      "rating": null
+    },
+    "tooltip": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
