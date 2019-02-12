@@ -1,0 +1,47 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "on-change": {
+      "completed": false,
+      "rating": null
+    },
+    "proxy-iterable": {
+      "completed": false,
+      "rating": null
+    },
+    "known-prop": {
+      "completed": false,
+      "rating": null
+    },
+    "negative-index": {
+      "completed": false,
+      "rating": null
+    },
+    "set-default-property": {
+      "completed": false,
+      "rating": null
+    },
+    "private-props": {
+      "completed": false,
+      "rating": null
+    },
+    "xprod": {
+      "completed": false,
+      "rating": null
+    },
+    "without": {
+      "completed": false,
+      "rating": null
+    },
+    "values-in": {
+      "completed": false,
+      "rating": null
+    },
+    "values": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
