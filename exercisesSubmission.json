@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Shivang Tripathi",
+  "email": "xshivangx@gmail.com",
+  "batch": "5",
   "exercises": {
     "array-sum-test": {
       "completed": true,
@@ -48,7 +48,7 @@
       "rating": null
     },
     "sum-test": {
-      "completed": false,
+      "completed": true,
       "rating": 5
     }
   }
