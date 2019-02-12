@@ -1,0 +1,19 @@
+{
+  "name": "Your name",
+  "email": "Your email",
+  "batch": "Batch Number",
+  "exercises": {
+    "matcher": {
+      "completed": false,
+      "rating": null
+    },
+    "split-lines": {
+      "completed": false,
+      "rating": null
+    },
+    "basic-mongo-one": {
+      "completed": false,
+      "rating": null
+    }
+  }
+}
