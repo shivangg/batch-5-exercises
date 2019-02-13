@@ -40,7 +40,7 @@
       "rating": null
     },
     "bouncer": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "sum-all": {
