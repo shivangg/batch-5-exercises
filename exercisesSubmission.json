@@ -56,7 +56,7 @@
       "rating": null
     },
     "large-of-four": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "steamroll-array": {
