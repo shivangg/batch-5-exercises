@@ -52,7 +52,7 @@
       "rating": null
     },
     "rectangle-diagonal": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "three-sum": {
