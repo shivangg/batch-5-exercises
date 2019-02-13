@@ -1,6 +1,6 @@
 
-function isEven(...args) {
-  return args;
+function isEven(args) {
+  return (args % 2 === 0);
 }
 
 export {

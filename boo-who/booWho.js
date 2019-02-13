@@ -1,6 +1,11 @@
 
-function booWho(...args) {
-  return args;
+function booWho(args) {
+  var argType = typeof args;
+
+  if (argType === 'boolean') {
+    return true;
+  }
+  return false;
 }
 
 export {

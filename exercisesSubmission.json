@@ -8,11 +8,11 @@
       "rating": null
     },
     "is-odd": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "is-even": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "is-triangle": {
@@ -40,7 +40,7 @@
       "rating": null
     },
     "boo-who": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "sum-fibs": {
