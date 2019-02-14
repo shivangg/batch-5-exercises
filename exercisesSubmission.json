@@ -56,8 +56,8 @@
       "rating": null
     },
     "object-defaults": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "user-check-password": {
       "completed": false,
