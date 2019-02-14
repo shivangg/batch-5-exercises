@@ -28,8 +28,8 @@
       "rating": null
     },
     "truth-check": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "orbital-period": {
       "completed": false,
