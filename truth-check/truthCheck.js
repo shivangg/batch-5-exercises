@@ -5,7 +5,9 @@ function truthCheck(collection, property) {
     return element[property];
   });
 
-  return elementsWithProperty.length === collection.length;
+  var haveSameProperty = elementsWithProperty.length === collection.length;
+
+  return haveSameProperty;
 }
 
 export {
