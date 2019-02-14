@@ -4,8 +4,8 @@
   "batch": "5",
   "exercises": {
     "slasher": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "chunk-array-in-groups": {
       "completed": false,
