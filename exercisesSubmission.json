@@ -4,7 +4,7 @@
   "batch": "5",
   "exercises": {
     "boolean": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "days-in-month": {
