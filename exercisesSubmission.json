@@ -16,8 +16,8 @@
       "rating": null
     },
     "lowercase-keys": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "math-fns": {
       "completed": false,
