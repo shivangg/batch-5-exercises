@@ -4,8 +4,8 @@
   "batch": "5",
   "exercises": {
     "square-numbers-array": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "savings-account": {
       "completed": false,
