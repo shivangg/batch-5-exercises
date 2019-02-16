@@ -24,8 +24,8 @@
       "rating": 5
     },
     "counter-factory": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "limit-function-call-count": {
       "completed": false,
