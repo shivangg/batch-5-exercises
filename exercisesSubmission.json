@@ -44,8 +44,8 @@
       "rating": null
     },
     "sum-fibs": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "sum-primes": {
       "completed": false,
