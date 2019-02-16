@@ -28,8 +28,8 @@
       "rating": 5
     },
     "limit-function-call-count": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "cache-function": {
       "completed": true,
