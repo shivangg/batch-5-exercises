@@ -1,6 +1,7 @@
 
-function yourName(...args) {
-  return args;
+function yourName() {
+  const myName = 'Write your name here!';
+  return myName;
 }
 
 export {
