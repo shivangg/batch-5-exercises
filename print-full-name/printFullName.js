@@ -1,6 +1,6 @@
 
-function printFullName(obj) {
-  return `My name is ${obj.first} ${obj.last}`;
+function printFullName({ first, last }) {
+  return `My name is ${first} ${last}`;
 }
 
 export {
