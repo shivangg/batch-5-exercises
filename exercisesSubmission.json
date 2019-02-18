@@ -12,8 +12,8 @@
       "rating": 5
     },
     "greet": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "reject-promise": {
       "completed": false,
