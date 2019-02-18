@@ -32,8 +32,8 @@
       "rating": 5
     },
     "map-filter-and-reduce": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "place-in-middle": {
       "completed": false,
