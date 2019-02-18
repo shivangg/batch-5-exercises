@@ -1,4 +1,4 @@
-import factorial from './factorial';
+import { factorial } from './factorial';
 
 describe('factorial', () => {
   test('should return a number', () => {
