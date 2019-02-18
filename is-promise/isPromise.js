@@ -1,6 +1,6 @@
 
-function isPromise(...args) {
-  return args;
+function isPromise(obj) {
+  return Promise.resolve(obj) === obj;
 }
 
 export {
