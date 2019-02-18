@@ -16,8 +16,8 @@
       "rating": 4
     },
     "reject-promise": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "queue": {
       "completed": false,
