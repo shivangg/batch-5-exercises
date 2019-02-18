@@ -4,8 +4,8 @@
   "batch": "5",
   "exercises": {
     "bind": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "block-scoping": {
       "completed": true,
