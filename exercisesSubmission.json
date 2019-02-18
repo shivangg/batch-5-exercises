@@ -28,8 +28,8 @@
       "rating": null
     },
     "join-arrays": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "map-filter-and-reduce": {
       "completed": false,
