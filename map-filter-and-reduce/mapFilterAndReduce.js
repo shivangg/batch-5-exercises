@@ -1,7 +1,7 @@
-function mapFilterAndReduce(objectList) {
-  const objectWithLengthLessThan5 = objectList.filter(el => el.firstName.length < 5);
+function mapFilterAndReduce(objects) {
+  const objectWithLengthLessThanFive = objects.filter(el => el.firstName.length < 5);
 
-  const nameWithLength = objectWithLengthLessThan5.reduce((acc, currentValue) => {
+  const nameWithLength = objectWithLengthLessThanFive.reduce((acc, currentValue) => {
     const updatedAcc = acc;
     updatedAcc[currentValue.firstName] = currentValue.firstName.length;
     return updatedAcc;
