@@ -28,8 +28,8 @@
       "rating": 5
     },
     "sequential-promise": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "timeout": {
       "completed": true,
