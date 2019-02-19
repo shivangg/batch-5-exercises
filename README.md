@@ -8,6 +8,7 @@
     }
     console.log(y);
   ```
+  Ans: `1undefined`
 
 2) Assuming obj is an “empty” object in scope, say:
   ```js
@@ -19,6 +20,7 @@
       obj[k] = undefined;
     });
   ```
+  Ans. `obj` will have the properties `JS` and `C++` set to `undefined`.
 
 3) What will the code below output to the console and why?
   ```js
@@ -29,6 +31,7 @@
     console.log("a defined? " + (typeof a !== 'undefined'));
     console.log("b defined? " + (typeof b !== 'undefined'));
   ```
+  Ans: `false` and `true`. Because `b` is global but `a` is local to function.
 
 4) What will the following code output and why?
   ```js
@@ -44,8 +47,10 @@
     }
     outer();
   ```
+Ans: b = 3. var = 3 overrides everything.
 
 5) What will the following code output and why?
   ```js
     console.log(typeof typeof 1);
   ```
+Ans: `typeof 1` is 'number' and typeof 'number' is string
