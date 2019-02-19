@@ -16,8 +16,8 @@
       "rating": null
     },
     "animal-sort": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "args-string": {
       "completed": false,
