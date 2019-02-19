@@ -20,8 +20,8 @@
       "rating": 2
     },
     "queue": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "person": {
       "completed": true,
