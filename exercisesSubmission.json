@@ -12,8 +12,8 @@
       "rating": null
     },
     "fibonacci-iter": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "generator-iterable": {
       "completed": true,
