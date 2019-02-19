@@ -1,6 +1,6 @@
 
-function isIterable(...args) {
-  return args;
+function isIterable(obj) {
+  return Boolean(obj[Symbol.iterator]);
 }
 
 export {
