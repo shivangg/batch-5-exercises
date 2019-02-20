@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Shivang Tripathi",
+  "email": "xshivangx@gmail.com",
+  "batch": "5",
   "exercises": {
     "search-sorted-matrix": {
       "completed": false,
@@ -24,8 +24,8 @@
       "rating": null
     },
     "slice": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "split-every": {
       "completed": false,
