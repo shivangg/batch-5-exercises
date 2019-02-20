@@ -1,6 +1,8 @@
 
-function values(...args) {
-  return args;
+function values(obj) {
+  // const
+  return Object.values(obj);
+  // return obj.values();
 }
 
 export {
