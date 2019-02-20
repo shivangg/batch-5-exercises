@@ -32,8 +32,8 @@
       "rating": null
     },
     "without": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "values-in": {
       "completed": false,
