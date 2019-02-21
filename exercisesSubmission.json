@@ -44,8 +44,8 @@
       "rating": null
     },
     "html-video": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "whatsapp": {
       "completed": false,
