@@ -28,16 +28,16 @@
       "rating": null
     },
     "debugging-html": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "form-attributes": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "form": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "html-classes": {
       "completed": false,
@@ -48,20 +48,20 @@
       "rating": null
     },
     "iframe": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "navigation-menu-start": {
       "completed": false,
       "rating": null
     },
     "strikeout": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "tooltip": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     }
   }
 }
