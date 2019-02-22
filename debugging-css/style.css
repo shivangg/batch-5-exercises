@@ -6,14 +6,16 @@ html {
 }
 
 body {
-  width: 80em;
-  margin: 0 auto;
+  position: absolute;
+  width: 80%;
+  margin: 20%;
 }
 
 /* Typography */
 
 h1 {
   font-size: 4em;
+  text-align: center
 }
 
 h2 {
@@ -29,13 +31,13 @@ pli {
 /* header and footer */
 
 header, footer {
-  background-colour: teal;
+  background-color: teal;
   height: 10em;
   padding: 2em;
 }
 
 h1, footer p {
-  margin: -70px;
+  margin: 70px;
 }
 
 h1 {
@@ -54,6 +56,6 @@ main p, main li {
 }
 
 img {
-  float: right
+  float: right;
   margin: 1.2em 2em;
 }
