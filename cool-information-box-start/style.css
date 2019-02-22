@@ -3,3 +3,19 @@ html {
 }
 
 /* Your CSS below here */
+.box {
+  position: absolute;
+  color: #f60012;
+  background-color: #c4000b;
+  border-radius: 25px;
+  width: 50%;
+  height: 20%;
+  margin-left: 20%;
+  box-shadow: 8px 8px 14px black;
+}
+
+p {
+  font-size: 260%;
+  text-shadow: 3px 3px 4px black;
+  text-align: center;
+}
