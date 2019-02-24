@@ -1,19 +1,12 @@
-
 function cacheFunction(functionToBeCached) {
-  var cachedResults = {};
-
-  var theCacher = function (innerParams) {
-    if (cachedResults.hasOwnProperty(innerParams)) {
-      return cachedResults[innerParams];
-    } else {
-      cachedResults[innerParams] = functionToBeCached(innerParams);
-      // console.log('====================================');
-      // console.log("New cache value", cachedResults);
-      // console.log('====================================');
+  const cachedResults = {};
+  function theCacher(innerParams) {
+    if (Object.hasOwnProperty.call(cachedResults, innerParams)) {
       return cachedResults[innerParams];
     }
+    cachedResults[innerParams] = functionToBeCached(innerParams);
+    return cachedResults[innerParams];
   }
-
   return theCacher;
 }
 

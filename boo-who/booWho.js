@@ -1,6 +1,5 @@
-
 function booWho(args) {
-  var argType = typeof args;
+  const argType = typeof args;
 
   if (argType === 'boolean') {
     return true;
