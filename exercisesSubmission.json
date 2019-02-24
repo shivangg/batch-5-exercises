@@ -4,12 +4,12 @@
   "batch": "5",
   "exercises": {
     "permutate-without-repetitions": {
-      "completed": true,
-      "rating": 3
-    },
-    "fix-eslint-errors": {
       "completed": false,
       "rating": null
+    },
+    "fix-eslint-errors": {
+      "completed": true,
+      "rating": 3
     }
   }
 }
