@@ -11,6 +11,9 @@
   console.log(output);
   ```
 
+  Ans:  `undefined`
+
+
 2) What will be the output of the following code ?
   ```js
   var Employee = {
@@ -21,6 +24,8 @@
   console.log(emp1.company);
   ```
 
+  Ans:  `xyz`
+
 3) How we will calculate length of the above associative array counterArray ?
   ```js
   var counterArray = {
@@ -29,6 +34,7 @@
   };
   counterArray["C"] = 1;
   ```
+  Ans: `Object.keys(counterArray).length`
 
 4) How we can prevent modification of object in JavaScript ?
 
@@ -47,3 +53,6 @@
     console.log(objA === objB);
   }());
   ```
+  Ans:  
+  `false`  
+  `false`  
