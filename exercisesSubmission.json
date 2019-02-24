@@ -48,8 +48,8 @@
       "rating": null
     },
     "template-literals": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "template-tag-function": {
       "completed": false,
