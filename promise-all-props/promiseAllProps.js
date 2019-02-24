@@ -1,6 +1,11 @@
-
 function promiseAllProps(promiseObj) {
-  return Promise.all(...Object.keys(promiseObj));
+  const newObj = {};
+  for (const keys of Object.keys(promiseObj)) {
+    promiseObj[keys].then((res) => {
+      newObj[keys] = res;
+    });
+  }
+  return Promise.resolve(newObj);
 }
 
 export {

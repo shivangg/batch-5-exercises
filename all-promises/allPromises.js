@@ -1,5 +1,5 @@
-function allPromises(...args) {
-  return Promise.all(...args);
+function allPromises(promises = []) {
+  return Promise.all(promises);
 }
 
 export {

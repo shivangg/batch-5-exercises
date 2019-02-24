@@ -44,8 +44,8 @@
       "rating": 5
     },
     "sleep-promise": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     }
   }
 }
