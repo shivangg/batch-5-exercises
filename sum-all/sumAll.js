@@ -1,17 +1,14 @@
-
 function sumAll(numberPointsArray) {
-  var startNumber;
-  var endNumber;
+  let startNumber;
+  let endNumber;
   if (numberPointsArray[0] < numberPointsArray[1]) {
-    startNumber = numberPointsArray[0];
-    endNumber = numberPointsArray[1];
+    [startNumber, endNumber] = numberPointsArray;
   } else {
-    startNumber = numberPointsArray[1];
-    endNumber = numberPointsArray[0];
+    [endNumber, startNumber] = numberPointsArray;
   }
 
-  var sumFromUnity = function (positiveNumber) {
-    return (positiveNumber * (positiveNumber + 1))/ 2;
+  function sumFromUnity(positiveNumber) {
+    return (positiveNumber * (positiveNumber + 1)) / 2;
   }
 
   return sumFromUnity(endNumber) - sumFromUnity(startNumber) + startNumber;

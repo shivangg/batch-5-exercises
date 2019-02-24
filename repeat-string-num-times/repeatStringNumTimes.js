@@ -1,12 +1,11 @@
-
 function repeatStringNumTimes(string, freq) {
-  var repeatedString = "";
+  let repeatedString = '';
 
   if (freq < 0) {
-    return ""
+    return '';
   }
 
-  for (let index = 0; index < freq; index++) {
+  for (let index = 0; index < freq; index += 1) {
     repeatedString += string;
   }
 

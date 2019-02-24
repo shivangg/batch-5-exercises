@@ -1,11 +1,10 @@
-
 function reverseString(string) {
-  var reverseString = "";
-  for (let index = 0; index < string.length; index++) {
-    var currentLetter = string[index];
-    reverseString = currentLetter + reverseString;
+  let reversedString = '';
+  for (let index = 0; index < string.length; index += 1) {
+    const currentLetter = string[index];
+    reversedString = currentLetter + reverseString;
   }
-  return reverseString;
+  return reversedString;
 }
 
 export {
