@@ -1,7 +1,6 @@
-
 function findElement(numbers, truthtest) {
-  var satisfyingNumbers = numbers.filter( truthtest )
-  var firstSatisfyingNumber = satisfyingNumbers[0];
+  const satisfyingNumbers = numbers.filter(truthtest);
+  const firstSatisfyingNumber = satisfyingNumbers[0];
   return firstSatisfyingNumber;
 }
 

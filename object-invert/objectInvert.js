@@ -1,9 +1,10 @@
-
 function objectInvert(objToBeInverted) {
-  var invertedObject = Object.keys(objToBeInverted).reduce( (accumulatedInvertedObj, origProperty) => {
-    accumulatedInvertedObj[objToBeInverted[origProperty]] = origProperty;
-    return accumulatedInvertedObj;
-  }, {} )
+  const invertedObject = Object.keys(objToBeInverted)
+    .reduce((acc, origProperty) => {
+      const newAcc = acc;
+      newAcc[objToBeInverted[origProperty]] = origProperty;
+      return newAcc;
+    }, {});
 
   return invertedObject;
 }
