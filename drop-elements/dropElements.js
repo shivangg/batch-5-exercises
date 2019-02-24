@@ -1,6 +1,6 @@
 
 function dropElements(values, truthCheck) {
-  var satisfyingNumbers = values.filter(truthCheck);
+  const satisfyingNumbers = values.filter(truthCheck);
   return satisfyingNumbers;
 }
 

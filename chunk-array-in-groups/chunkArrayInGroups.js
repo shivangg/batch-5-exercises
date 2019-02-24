@@ -1,14 +1,14 @@
-
-function chunkArrayInGroups( aChunk, maxChunkSize) {
-  var chunkLists = aChunk.reduce( (accumulatedChunks, currentValue, currentIndex) => {
-    var chunkIndex = parseInt(currentIndex / maxChunkSize, 10);
-    var isNewChunk = currentIndex % maxChunkSize === 0;
-    if ( isNewChunk ) {
-      accumulatedChunks[chunkIndex] = [];
+function chunkArrayInGroups(aChunk, maxChunkSize) {
+  const chunkLists = aChunk.reduce((acc, currentValue, currentIndex) => {
+    const chunkIndex = parseInt(currentIndex / maxChunkSize, 10);
+    const isNewChunk = currentIndex % maxChunkSize === 0;
+    const newAcc = acc;
+    if (isNewChunk) {
+      newAcc[chunkIndex] = [];
     }
-    accumulatedChunks[chunkIndex][currentIndex % maxChunkSize] = currentValue;
-    return accumulatedChunks;
-  }, [] );
+    newAcc[chunkIndex][currentIndex % maxChunkSize] = currentValue;
+    return newAcc;
+  }, []);
 
   return chunkLists;
 }

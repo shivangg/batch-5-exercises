@@ -1,9 +1,7 @@
-
 function slasher(unSlashedValues, numberOfChops) {
-  var chopTillIndex = numberOfChops - 1;
-  var slashedValues = unSlashedValues.filter( ( el, index ) => {
-    return index > chopTillIndex;
-  } )
+  const chopTillIndex = numberOfChops - 1;
+  const slashedValues = unSlashedValues
+    .filter((el, index) => index > chopTillIndex);
   return slashedValues;
 }
 
