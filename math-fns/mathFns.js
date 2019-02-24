@@ -1,8 +1,11 @@
+const [sqrt, round] = [Math.sqrt, Math.round];
 
-function mathFns(...args) {
-  return args;
+function power(x, n) {
+  return x ** n;
 }
 
 export {
-  mathFns,
+  sqrt,
+  power,
+  round,
 };

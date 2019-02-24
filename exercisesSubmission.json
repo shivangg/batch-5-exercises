@@ -20,8 +20,8 @@
       "rating": 5
     },
     "math-fns": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "parse-ms": {
       "completed": false,
