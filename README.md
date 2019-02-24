@@ -3,7 +3,7 @@
 # Questions
 
 1) What would be the output of the following code ?
-    
+
   ```js
     var obj = {
       message: 'Hello',
@@ -15,6 +15,9 @@
     };
     console.log(obj.innerMessage());
   ```
+  Ans:  
+  `undefined`  
+  `undefined`  
 
 2) What would be the output of the following code ?
 
@@ -30,6 +33,9 @@
     };
     console.log(obj.innerMessage());
 ```
+Ans:  
+  `Hello`  
+  `undefined`  
 
 3) What would be the output of the following code ?
   ```js
@@ -37,9 +43,12 @@
       console.log(this.message);
     }
     myFunc.message = "Hi John";
-      
+
     console.log(myFunc());
   ```
+Ans:  
+`undefined`  
+`undefined`  
 
 4) What would be the output of the following code ?
   ```js
@@ -49,3 +58,6 @@
     }
     console.log(myFunc());
   ```
+  Ans:  
+  `Hi John`  
+  `undefined`  
