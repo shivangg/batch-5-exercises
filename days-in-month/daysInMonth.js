@@ -1,8 +1,8 @@
 
 function daysInMonth(year, generalMonth) {
-  var month = generalMonth - 1;
-  var nextMonth = month + 1;
-  var LastDayOfCurrentMonth = new Date(year, nextMonth, 0);
+  const month = generalMonth - 1;
+  const nextMonth = month + 1;
+  const LastDayOfCurrentMonth = new Date(year, nextMonth, 0);
   return LastDayOfCurrentMonth.getDate();
 }
 
