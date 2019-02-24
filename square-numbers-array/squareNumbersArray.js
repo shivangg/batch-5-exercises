@@ -1,12 +1,12 @@
 
 function squareNumbersArray(...args) {
-  var allPresentNumber = args.reduce((acc, currentArgument) => {
-    var isCurrentArgumentNumber = typeof currentArgument === 'number';
+  const allPresentNumber = args.reduce((acc, currentArgument) => {
+    const isCurrentArgumentNumber = typeof currentArgument === 'number';
     return acc && isCurrentArgumentNumber;
-  }, true );
+  }, true);
 
   if (!allPresentNumber) {
-    throw 'My custom error';
+    throw new Error('My custom error');
   }
   return true;
 }

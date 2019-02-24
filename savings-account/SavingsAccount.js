@@ -6,14 +6,11 @@ function SavingsAccount(...args) {
     _firstName: args[2],
     _lastName: args[3],
     products: [],
-  }
-
-  function
-
+  };
 
   return myAccount;
 }
 
 export {
-  savingsAccount,
+  SavingsAccount,
 };
