@@ -24,8 +24,8 @@
       "rating": null
     },
     "beginner-exercises": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     }
   }
 }
