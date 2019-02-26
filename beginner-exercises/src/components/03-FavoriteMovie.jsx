@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 /*
 You can pass props to components using JSX attributes.
 
@@ -16,18 +15,15 @@ Task #2: If there is no movie given, we should display a message encouraging
 
 Further reading on task #2: https://facebook.github.io/react/tips/if-else-in-JSX.html
 */
-
 class FavoriteMovie extends Component {
   /*
     By default `this.state` is `null`. In `render` we are referring to
     a specific element from the `state` object - `this.state.movie`.
     If we don't set an initial state, we will get an error. It's impossible to fetch
     an object key from `null`. (null.movie!!! => Error)
-  
     Think about it: you can set movie from a cookie on component initialization!
     What else could you do here?
   */
-
   constructor(props) {
     // Properties object is called `props`. You can access it with `this.props`.
     super(props);
@@ -56,7 +52,7 @@ class FavoriteMovie extends Component {
     // }
     // this.setState({ badAttribute: 'ChangeME!' });
     this.setState({
-      movie: event.target.value
+      movie: event.target.value,
     });
   }
 
