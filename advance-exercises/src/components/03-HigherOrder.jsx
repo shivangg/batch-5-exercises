@@ -1,3 +1,5 @@
+/* eslint-disable react/prefer-stateless-function */
+/* eslint-disable react/no-multi-comp */
 /*
   Exercise:
 
@@ -9,13 +11,36 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function withMouse(Component) {
-  return Component;
+  return class NewComponent extends React.Component {
+    constructor(props) {
+      super(props);
+      this.state = {
+        x: 0,
+        y: 0,
+      };
+      this.handleChange = this.handleChange.bind(this);
+    }
+
+    handleChange(e) {
+      this.setState({
+        x: e.clientX,
+        y: e.clientY,
+      });
+    }
+
+    render() {
+      return (
+        <div onMouseMove={this.handleChange}>
+          <Component mouse={this.state} {...this.props} />;
+        </div>
+      );
+    }
+  };
 }
 
 class App extends React.Component {
   render() {
     const { mouse } = this.props;
-
     return (
       <div className="container">
         {mouse ? (
@@ -24,7 +49,7 @@ class App extends React.Component {
           </h1>
         ) : (
           <h1>We don&#39;t know the mouse position yet :(</h1>
-        )}
+          )}
       </div>
     );
   }
