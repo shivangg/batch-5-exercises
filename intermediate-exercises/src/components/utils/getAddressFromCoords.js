@@ -1,5 +1,5 @@
 const GoogleMapsAPI = 'https://maps.googleapis.com/maps/api';
-
+// https://maps.googleapis.com/maps/api/geocode/json?latlng=28.496850499999997,77.0917324
 function wait(timeout, work) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
@@ -20,10 +20,11 @@ function getAddressFromCoords(latitude, longitude) {
   return fetch(url)
     .then(res => res.json())
     .then((json) => {
-      return json.status === 'OVER_QUERY_LIMIT' ?
-        // Wait for the query limit to reset.
-        wait(retryTimeout, () => getAddressFromCoords(latitude, longitude)) :
-        json.results[0].formatted_address;
+      return Promise.resolve('We Work');
+      // return json.status === 'OVER_QUERY_LIMIT' ?
+      //   // Wait for the query limit to reset.
+      //   wait(retryTimeout, () => getAddressFromCoords(latitude, longitude)) :
+      //   json.results[0].formatted_address;
     });
 }
 
