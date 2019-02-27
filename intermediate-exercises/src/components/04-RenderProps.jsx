@@ -26,12 +26,37 @@
 
 /* eslint-disable react/no-multi-comp */
 
-import React from 'react';
-// import PropTypes from 'prop-types';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
-// import getAddressFromCoords from './utils/getAddressFromCoords';
+import getAddressFromCoords from './utils/getAddressFromCoords';
 
-class App extends React.Component {
+class GeoAddress extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      address: '',
+    };
+  }
+
+  componentDidMount() {
+    getAddressFromCoords(this.props.latitude, this.props.longitude)
+      .then(addr => this.setState({ address: addr }));
+  }
+
+  render() {
+    const { render } = this.props;
+    return render(this.state.address);
+  }
+}
+
+GeoAddress.propTypes = {
+  latitude: PropTypes.number.isRequired,
+  longitude: PropTypes.number.isRequired,
+  render: PropTypes.instanceOf(Function).isRequired,
+};
+
+class GeoPosition extends Component {
   constructor() {
     super();
     this.state = {
@@ -64,22 +89,39 @@ class App extends React.Component {
   }
 
   render() {
-    return (
+    const { render } = this.props;
+    return render(this.state);
+  }
+}
+
+GeoPosition.propTypes = {
+  render: PropTypes.instanceOf(Function).isRequired,
+};
+
+
+function App() {
+  return (
+    <GeoPosition render={({ error, coords }) => (
       <div>
         <h1>Geolocation</h1>
-        {this.state.error ? (
-          <div>Error: {this.state.error.message}</div>
+        {error ? (
+          <div>Error: {error.message}</div>
         ) : (
           <dl>
             <dt>Latitude</dt>
-            <dd>{this.state.coords.latitude || <p>create a loader and show here...</p>}</dd>
+            <dd>{coords.latitude || <p>create a loader and show here...</p>}</dd>
             <dt>Longitude</dt>
-            <dd>{this.state.coords.longitude || <p>create a loader and show here...</p>}</dd>
+            <dd>{coords.longitude || <p>create a loader and show here...</p>}</dd>
           </dl>
-        )}
+          )}
+        {(coords.latitude && coords.longitude) ? (<GeoAddress
+          latitude={coords.latitude}
+          longitude={coords.longitude}
+          render={res => <p>You are @ {res}</p>}
+        />) : null}
       </div>
-    );
-  }
+    )}
+    />);
 }
 
 export default App;
