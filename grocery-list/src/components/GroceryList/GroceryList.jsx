@@ -36,7 +36,7 @@ class GroceryList extends React.Component {
   }
 
   render() {
-    const { groceries } = this.state;
+    const { groceries, newGrocery: { name } } = this.state;
 
     const groceriesComponents = groceries.map(item => ( // eslint-disable-line no-unused-vars
       <GroceryListItem key={item.name} grocery={item.name} />
@@ -49,7 +49,7 @@ class GroceryList extends React.Component {
           }
         </ul>
         <form onSubmit={this.addGrocery}>
-          <input type="text" value={this.state.newGrocery.name} onChange={this.handleChange} />
+          <input type="text" value={name} onChange={this.handleChange} />
           <input type="submit" />
         </form>
       </div>
@@ -57,25 +57,12 @@ class GroceryList extends React.Component {
   }
 }
 
-// Task 1: Fill the `return` of `GroceryList`
-// render method.It should
-// return
-// a list of `GroceryListItem`.You need to display the groceries names
-// using `this.props` in `GroceryListItem`.We already prepared the variable `groceriesComponents`
-// inside `render`
-// method containing a list of these items
-// for you.
-
-
-// Render grocery name from component's properties.
-// If you have a problem, check `this.props` in the console.
 /* eslint-disable react/no-multi-comp, no-useless-constructor */
-function GroceryListItem(props) {
-  // console.log(this.props.grocery);
+function GroceryListItem({ grocery }) {
   return (
     <li>
       {
-        props.grocery
+        grocery
       }
     </li>
   );
@@ -84,7 +71,5 @@ function GroceryListItem(props) {
 GroceryListItem.propTypes = {
   grocery: PropTypes.string.isRequired,
 };
-
-// Do prop validation here using the package `prop-types`
 
 export default GroceryList;
