@@ -35,6 +35,7 @@ const App = () => (
       <hr />
       {routes.map(route => (
         <Route
+          key={route.path}
           path={route.path}
           render={props => (
             <route.component {...props} routes={route.routes} />
