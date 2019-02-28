@@ -34,8 +34,8 @@ export default class Navbar extends Component {
 
           <Switch>
             <Route path="/home" component={Home} />
-            <Route path="/about/" component={About} />
-            <Route path="/contact/" component={Contact} />
+            <Route exact path="/about/" component={About} />
+            <Route exact path="/contact/" component={Contact} />
             <Route component={Error404} />
           </Switch>
         </div>
