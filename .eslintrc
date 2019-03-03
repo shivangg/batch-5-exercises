@@ -1,18 +1,10 @@
 {
-  "extends": [
-    "airbnb",
-    "prettier",
-    "prettier/react"
-  ],
+  "extends": "airbnb",
   "env": {
     "jest": true
   },
   "rules": {
-    "prettier/prettier": "error",
     "import/prefer-default-export": 0,
     "no-restricted-syntax": 0
-  },
-  "plugins": [
-    "prettier"
-  ]
+  }
 }
