@@ -69,11 +69,12 @@ export class Link extends Component {
 
 Link.propTypes = {
   hide: PropTypes.bool,
-  address: PropTypes.string.isRequired,
+  address: PropTypes.string,
 };
 
 Link.defaultProps = {
   hide: undefined,
+  address: '',
 };
 
 export default App;
