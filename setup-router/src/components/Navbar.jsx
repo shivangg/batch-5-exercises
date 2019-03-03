@@ -1,17 +1,17 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
   Route,
   NavLink,
-  Switch
-} from "react-router-dom";
+  Switch,
+} from 'react-router-dom';
 
-import "../styles/App.css";
+import '../styles/App.css';
 
-import Home from "./Home";
-import About from "./About";
-import Contact from "./Contact";
-import Error404 from "./Error404";
+import Home from './Home';
+import About from './About';
+import Contact from './Contact';
+import Error404 from './Error404';
 
 export default class Navbar extends Component {
   render() {
