@@ -12,8 +12,8 @@
       "rating": null
     },
     "test-basics": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "test-forms": {
       "completed": false,
