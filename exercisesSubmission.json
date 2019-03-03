@@ -20,8 +20,8 @@
       "rating": null
     },
     "setup-router": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     }
   }
 }
