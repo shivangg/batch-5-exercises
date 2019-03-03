@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
-// import { Switch, Route, Redirect, Link } from 'react-router-dom';
 
 import './styles/App.css';
 import ColorList from './components/ColorList';
-// import Color from './components/Color';
-// import NewColor from './components/NewColor';
 
 class App extends Component {
   constructor(props) {
@@ -29,17 +26,18 @@ class App extends Component {
   }
 
   handleAdd(newColor) {
-    this.setState({ colors: [newColor, ...this.state.colors] });
+    this.setState(({ colors }) => {
+      return { colors: [newColor, ...colors] };
+    });
   }
 
   render() {
+    const { colors } = this.state;
     const colorListComponent = () => (
-      <ColorList colors={this.state.colors} />
+      <ColorList handleAdd={this.handleAdd} colors={colors} />
     );
 
-    return (
-      colorListComponent()
-    );
+    return colorListComponent();
   }
 }
 

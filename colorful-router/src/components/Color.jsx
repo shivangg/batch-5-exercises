@@ -10,7 +10,9 @@ const Color = (props) => {
     <div className="Color" style={{ backgroundColor: color.hex }}>
       <p>this is {color.name}.</p>
       <p>Isnt it beautiful?</p>
-      <p><Link to="/">Go back</Link></p>
+      <p>
+        <Link to="/colors">Go back</Link>
+      </p>
     </div>
   );
 };

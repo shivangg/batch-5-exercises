@@ -1,11 +1,11 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Shivang Tripathi",
+  "email": "xshivangx@gmail.com",
+  "batch": "5",
   "exercises": {
     "colorful-router": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "colorful-router-2": {
       "completed": false,
