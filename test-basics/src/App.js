@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { PropType } from 'prop-types';
 
 import './styles/App.css';
 
@@ -8,11 +9,48 @@ class App extends Component {
     on: false,
     input: '',
     mainColor: 'blue',
-  }
+    choice: 'No!',
+  };
+
+  toggleChoice = () => {
+    this.setState((state) => {
+      if (state.choice === 'No!') {
+        return {
+          choice: 'Yes!',
+        };
+      }
+      return {
+        choice: 'No!',
+      };
+    });
+  };
+
+  handleStrings = (string) => {
+    if (string === 'Hello World') {
+      return true;
+    }
+    return false;
+  };
+
+  handleChange = (event) => {
+    const e = event.currentTarget.value;
+    this.setState({ input: e });
+  };
+
   render() {
+    const { mainColor, input, choice } = this.state;
     return (
-      <div className="App">
-        Welcome to React
+      <div className={mainColor}>
+        <h1>Welcome to React</h1>
+        <h2>{input}</h2>
+        <button
+          type="submit"
+          className="button-state"
+          onClick={this.toggleChoice}
+        >
+          {choice}
+        </button>
+        <input onChange={this.handleChange} />
       </div>
     );
   }
@@ -20,8 +58,22 @@ class App extends Component {
 
 export class Link extends Component {
   render() {
-    return null;
+    const { hide, address } = this.props;
+    if (hide) {
+      return null;
+    }
+
+    return <a href={address}>Text</a>;
   }
 }
+
+Link.propTypes = {
+  hide: PropType.bool,
+  address: PropType.string.isRequired,
+};
+
+Link.defaultProps = {
+  hide: undefined,
+};
 
 export default App;
