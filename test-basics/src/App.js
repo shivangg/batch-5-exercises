@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { PropType } from 'prop-types';
+import { PropTypes } from 'prop-types';
 
 import './styles/App.css';
 
@@ -68,8 +68,8 @@ export class Link extends Component {
 }
 
 Link.propTypes = {
-  hide: PropType.bool,
-  address: PropType.string.isRequired,
+  hide: PropTypes.bool,
+  address: PropTypes.string.isRequired,
 };
 
 Link.defaultProps = {
