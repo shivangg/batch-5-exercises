@@ -12,8 +12,8 @@
       "rating": null
     },
     "local-storage": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "session-storage": {
       "completed": false,
