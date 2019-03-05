@@ -1,8 +1,7 @@
+import { homedir } from 'os';
 
-function homeDir(...args) {
-  return args;
+function homeDir() {
+  return homedir();
 }
 
-export {
-  homeDir,
-};
+export { homeDir };

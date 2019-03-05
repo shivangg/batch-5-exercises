@@ -1,7 +1,7 @@
 import { homeDir } from './homeDir';
 
-describe('Template Test', () => {
-  test('Template Test', () => {
-    // Write your own test case
+describe('Check if home dir', () => {
+  test('is correct', () => {
+    expect(homeDir()).toBe('/home/shivangg');
   });
 });

@@ -24,8 +24,8 @@
       "rating": null
     },
     "home-dir": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "parse-json": {
       "completed": false,
