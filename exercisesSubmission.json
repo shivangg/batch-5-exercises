@@ -12,7 +12,7 @@
       "rating": null
     },
     "http-server": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "is-stream": {

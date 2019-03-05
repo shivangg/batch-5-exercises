@@ -1,8 +1,19 @@
+import http from 'http';
 
-function httpServer(...args) {
-  return args;
-}
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.end('Pesto Bootcamp!\n');
+});
 
-export {
-  httpServer,
+const httpServer = {
+  listen: (PORT) => {
+    server.listen(PORT, () => {
+      console.log(`listening at${PORT}`);
+    });
+  },
+  close: () => {
+    server.close(3000);
+  },
 };
+
+export { httpServer };
