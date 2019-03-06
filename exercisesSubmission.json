@@ -1,11 +1,11 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Shivang Tripathi",
+  "email": "xshivangx@gmail.com",
+  "batch": "5",
   "exercises": {
     "express-101": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "templating-engine": {
       "completed": false,

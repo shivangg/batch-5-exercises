@@ -5,7 +5,7 @@
   "author": "Arfat Salman <giney.paradise@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": ""
+    "start": "nodemon src"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
